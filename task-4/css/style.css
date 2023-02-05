@@ -102,7 +102,7 @@ margin:0 0 20px;
 }
 .circle,
 .chart {
-  height: calc((100vw - 180px) / 4);
+  height: calc((93vw - 151px) / 4);
 }
 .circle{
   border-radius: 50%;
