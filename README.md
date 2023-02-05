@@ -1,7 +1,10 @@
 # betasqurirrel-tasks
 
-## view of all tasks
-- [tasks](file:///home/fazi/betasqu-tasks/index.html)
+### view of all tasks
+
+![check my](https://github.com/farhanareekode/betasqu-tasks/blob/main/index.html)
+
+
  
 ## linux comment
 
@@ -23,7 +26,7 @@
 
 
 
-## task
+## Task overview
 
 | Requirements                 | Output                           |
 | ---------------------------- | -------------------------------- |
