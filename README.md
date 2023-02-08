@@ -2,7 +2,7 @@
 
 ### view of all tasks
 
-- [check my complete tasks](https://github.com/farhanareekode/betasqu-tasks/blob/main/index.html)
+- [check my complete tasks](https://farhanareekode.github.io/betasqu-tasks/)
 
 
  
