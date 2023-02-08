@@ -8,15 +8,12 @@ body {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #f0f8ff;
- 
 }
-
 #left-navbar {
   width: auto;
   display: flex;
   justify-content: flex-start;
   float: left;
-  
 }
 #right-navbar {
   width: auto;
@@ -24,14 +21,13 @@ body {
   display: flex;
   justify-content: flex-end;
 }
-
 #left-navbar > img {
   height: 60px;
   float: left;
   margin: 10px 15px;
 }
 #left-navbar > h2 {
-color: antiquewhite;
+  color: antiquewhite;
 }
 #right-navbar > img {
   height: 60px;
@@ -40,30 +36,26 @@ color: antiquewhite;
   float: right;
   padding-top: 10px;
 }
-
-
 .maincontiner {
-    height: calc(100vh - 81px);
-    position: relative;
-    overflow: hidden;
+  height: calc(100vh - 81px);
+  position: relative;
+  overflow: hidden;
 }
 #sidebar {
   background-color: #625c5c;
-    height: 100%;
-    width: 150px;
-    float: left;
-   
+  height: 100%;
+  width: 150px;
+  float: left;
 }
 #mainbar > h2 {
-    color: #000000;
-    margin: 0 0 15px 0 ;
-    text-decoration: underline;
-
+  color: #000000;
+  margin: 0 0 15px 0;
+  text-decoration: underline;
 }
 #mainbar {
-    padding: 15px;
-    width: calc(100vw - 180px);
-    float: left;
+  padding: 15px;
+  width: calc(100vw - 180px);
+  float: left;
 }
 .green-bg {
   background-color: #0ace82;
@@ -78,15 +70,13 @@ color: antiquewhite;
   background-color: #1abcfd;
 }
 .tiles-block,
- .circles-block {
+.circles-block {
   display: flex;
-  
   float: left;
- }
-.tiles-block {
-margin:0 0 20px;
 }
-
+.tiles-block {
+  margin: 0 0 20px;
+}
 .tile {
   height: 200px;
 }
@@ -104,16 +94,16 @@ margin:0 0 20px;
 .chart {
   height: calc((93vw - 151px) / 4);
 }
-.circle{
+.circle {
   border-radius: 50%;
   margin-top: 15px;
 }
 #tiles-block > div,
-#circles-block > div  {
+#circles-block > div {
   margin-right: 15px;
 }
 #tiles-block > div:last-child,
-#circles-block > div:last-child  {
+#circles-block > div:last-child {
   margin-right: 0;
 }
 .tile h2,
@@ -123,7 +113,7 @@ margin:0 0 20px;
 .inner-circle1 {
   width: 140px;
   height: 140px;
-  border-radius:50% ;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,7 +125,7 @@ margin:0 0 20px;
 .inner-circle2 {
   width: 250px;
   height: 250px;
-  border-radius:50% ;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,7 +137,7 @@ margin:0 0 20px;
 .inner-circle3 {
   width: 260px;
   height: 260px;
-  border-radius:50% ;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -156,62 +146,53 @@ margin:0 0 20px;
 .inner-circle4 {
   width: 160px;
   height: 160px;
-  border-radius:50% ;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .bar {
-  
   width: 10px;
- position: absolute;
- overflow: hidden;
-  
+  position: absolute;
+  overflow: hidden;
 }
-.chart { 
-
+.chart {
   position: relative;
-
 }
 .chart div {
   bottom: 0;
 }
-
 .one {
   left: 0px;
-  height: calc(100% - 60PX);
+  height: calc(100% - 60px);
 }
 .two {
   left: 30px;
-  height: calc(100% - 40PX);
+  height: calc(100% - 40px);
 }
 .three {
   left: 80px;
-  height: calc(100% - 60PX);
-
+  height: calc(100% - 60px);
 }
 .four {
   left: 120px;
-  height: calc(100% - 30PX);
+  height: calc(100% - 30px);
 }
 .five {
   left: 160px;
-  height: calc(100% - 80PX);
+  height: calc(100% - 80px);
 }
 .six {
   left: 200px;
-  height: calc(100% - 20PX);
+  height: calc(100% - 20px);
 }
 .line {
   width: 100%;
   height: 15px;
   background-color: #625c5c;
   position: absolute;
-
 }
-#sidebar  nav {
-
+#sidebar nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -219,12 +200,11 @@ margin:0 0 20px;
 }
 #sidebar nav a {
   color: whitesmoke;
-padding: 5px;
+  padding: 5px;
 }
 #sidebar nav a:first-child {
-padding-top: 0;
+  padding-top: 0;
 }
-
 #sidebar nav a.active {
   color: lightgreen;
   text-decoration: none;

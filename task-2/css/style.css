@@ -2,7 +2,6 @@ body {
   background-color: black;
   margin: 0 auto;
 }
-
 #navbar {
   background-color: red;
   height: 80px;
@@ -10,7 +9,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
 .boxes {
   background-color: lightblue;
   height: 250px;
@@ -18,64 +16,52 @@ body {
   float: left;
   margin-bottom: 15px;
 }
-
 .m-r {
   margin-right: 15px;
 }
-
 div {
   padding: 10px;
 }
-
 .left {
   float: left;
   display: flex;
 }
-
 .right {
   float: right;
   display: flex;
   align-self: center;
   margin-right: 10px;
 }
-
 .left img {
   height: 70px;
 }
-
 .left h2 {
   display: inline;
   color: blue;
 }
-
 .right a {
   color: black;
   padding: 10px;
   text-decoration: none;
 }
-
 .right a:hover {
   background-color: azure;
   color: blue;
 }
-
 .main {
   background-color: aqua;
   height: 250px;
   margin-left: 15px;
   margin-right: 15px;
 }
-
 #aaa {
   float: right;
   background-color: blueviolet;
   background-color: lightblue;
   height: 220px;
-
   margin-bottom: 20px;
   width: calc((100% / 3) - 30px);
 }
-
 #bbb {
   float: left;
   background-color: blue;
@@ -83,14 +69,12 @@ div {
   height: 220px;
   width: calc((100% / 3) - 30px);
 }
-
 #ccc {
   background: #ff0000;
   overflow: hidden;
   height: 250px;
   margin: 15px;
 }
-
 .hh {
   background-color: #fff;
   margin: 15px;

@@ -14,15 +14,19 @@
 - `ls -a` - show hidden files in directory.
 - `pwd` - show  current working directory.
 - `cat` - show contents in file. Ex: `cat filename`
+- `mkdir` - to create a folder in directory ex:`mkdir folder name`
+- `rm -rf` - remove folder in directory Ex:`rm -rf folder name`
 
 ## git comments
 
 1. `git config` - Configure git user. Ex: `git config --global user.name "farhanareekode"`, `git config  --global user.email "farhanareekode@gmail.com"`
 2. `git clone` - Clone a  git repositories to your local. Ex: `git clone git@github.com:farhanareekode/betasqu-tasks.git`, 
 3. `git add` - Add your file changes to git. Ex: `git add file name.`, 
-4. `git commit` - Commit changes to git. Ex: `git commit -m "Initial commit"
-5. `git push` - Push your local commits to repositories. Ex: `git push origin main`
-6. `git pull` - Pull updates your current local working branch. Ex: `git pull new-folder` 
+4. `git add .` This a shortcut to add all file to git
+5. `git commit` - Commit changes to git. Ex: `git commit -m "Initial commit"
+6. `git push` - Push your local commits to repositories. Ex: `git push origin main`
+7. `git pull` - Pull updates your current local working branch. Ex: `git pull new-folder` 
+8. `git status` - To know current status.
 
 
 
